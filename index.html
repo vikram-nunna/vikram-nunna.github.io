@@ -1,6 +1,14 @@
 "Hello World" 
 
-<form method="get" action="/page2">
+<form action="vik">
     <input type="text" id="fname" name="fname"<br><br>
-    <button type="submit">Continue</button>
+    <input type="submit" name="insert" value="insert" onclick="insert()"/>
 </form>
+<button onclick="myFunction()">Click me</button>
+
+<?php
+            
+            function insert(){
+               echo "The insert function is called.";
+            }
+        ?>
