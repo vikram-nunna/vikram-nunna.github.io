@@ -17,12 +17,12 @@ body {
 
 .line {
       position: relative;
-      top: 50%;
+      top: 10%;
       width: 16em;
       margin: 0 auto;
       border-right: 2px solid rgba(255, 255, 255, 0.75);
       font-size: 180%;
-      text-align: center;
+      text-align: left;
       white-space: nowrap;
       overflow: hidden;transform: translateY(-50%);
 }
